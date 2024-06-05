@@ -15,7 +15,7 @@ pipeline {
                 checkout scmGit(
                     branches: [[name: '*/main']],
                     extensions: [],
-                    userRemoteConfigs: [[url: 'https://github.com/Cryptotion/revhire-terraform-infrastructure-repo.git']]
+                    userRemoteConfigs: [[url: 'https://github.com/DharmaVijay/Jenkins.git']]
                 )
             }
         }
